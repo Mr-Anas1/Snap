@@ -1,0 +1,32 @@
+.sidebar-size-container {
+    padding: 20px 10px;
+}
+
+.sidebar-size-title {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.sidebar-size-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.sidebar-button {
+    background-color: #eee;
+    padding: 10px 40px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.sidebar-button:hover {
+    background-color: #ccc;
+}
+
+.sidebar-button:focus {
+    background-color: #000000;
+    color: #ffffff;
+}
+

@@ -1,0 +1,11 @@
+.offerbox-container {
+    background-color: var(--blackColor);
+    color: var(--whiteColor);
+    height: 38px;
+    font-size: 14px;
+    box-sizing: border-box;
+    align-items: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+

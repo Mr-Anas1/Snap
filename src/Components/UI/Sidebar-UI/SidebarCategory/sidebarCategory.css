@@ -1,0 +1,58 @@
+.sidebar-category-container {
+    padding: 20px 10px;
+}
+
+.sidebar-category-heading {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.sidebar-category-label {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.checkmark {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #eee;
+    cursor:pointer;
+    position: relative;
+}
+
+.sidebar-category-container input {
+    position: absolute;
+    cursor: pointer;
+    width: fit-content;
+    opacity: 0;
+    background-color: #eee;
+}
+
+.sidebar-category-label:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.sidebar-category-label input:checked ~ .checkmark {
+    background-color: #2196f3;
+}
+
+.checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.sidebar-category-label input:checked ~ .checkmark::after {
+    display: block;
+}
+
+.sidebar-category-label .checkmark::after {
+    top: 6.4px;
+    left: 6.4px;
+    width: 7px;
+    height: 7px;
+    background-color: #ffffff ;
+    border-radius: 50%;
+}

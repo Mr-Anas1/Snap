@@ -1,0 +1,9 @@
+.products-container {
+    margin-left: 300px;
+}
+
+.sidebar {
+    
+    position: absolute;
+    left: 100px;
+}

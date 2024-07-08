@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+
+:root {
+    --PrimaryColor: #F2F0F1;
+    --SecondaryColor: #F0F0F0;
+    --blackColor: #000000;
+    --whiteColor: #FFFFFF;
+    --inputText: #909090;
+    --descriptionText: #616060;
+    --starYellow: #FFD700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alatsi', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flex {
+    display: flex;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li {
+    list-style: none;
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+    border: none;
+    background-color: transparent;
+    color: var(--inputText);
+    width: 100%;
+    padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input::placeholder {
+    color: var(--inputText);
+}
+
+input:focus {
+    outline: none;
+    
+}
+
+
+
+.icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    outline: none;
 }
