@@ -2,6 +2,14 @@
     padding: 20px 10px;
 }
 
+.sidebar-size-container input{
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    width: 97px ;
+    height: 35px;
+}
+
 .sidebar-size-title {
     font-size: 18px;
     margin-bottom: 12px;
@@ -9,9 +17,8 @@
 
 .sidebar-size-buttons {
     display: flex;
-    gap: 10px;
+    gap: 5px;
     flex-wrap: wrap;
-    
 }
 
 .sidebar-button {
@@ -19,14 +26,16 @@
     padding: 10px 40px;
     cursor: pointer;
     border-radius: 20px;
+    
 }
 
-.sidebar-button:hover {
+.sidebar-category-label:hover input ~ button {
     background-color: #ccc;
 }
 
-.sidebar-button:focus {
+.sidebar-category-label input:checked ~ button {
     background-color: #000000;
     color: #ffffff;
 }
+
 

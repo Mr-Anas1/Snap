@@ -27,7 +27,6 @@
     cursor: pointer;
     width: fit-content;
     opacity: 0;
-    background-color: #eee;
 }
 
 .sidebar-category-label:hover input ~ .checkmark {

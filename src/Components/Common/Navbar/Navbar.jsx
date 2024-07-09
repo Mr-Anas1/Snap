@@ -63,7 +63,7 @@ const Navbar = () => {
             
             
             <IoSearch className='search-icon icon' />
-            <input type="text" className = "search-input" placeholder='Search for products...' onChange={handleInputChange}/>
+            <input type="text" className = "search-input" placeholder='Search for products...' onChange={handleInputChange} />
             <RiCloseLargeFill className='search-icon icon' onClick={handleSearchClick} />
           </div>
 
